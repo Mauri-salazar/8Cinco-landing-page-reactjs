@@ -12,7 +12,7 @@ import GoogleIcon from '@mui/icons-material/Google';
 import ArrowCircleRightRoundedIcon from '@mui/icons-material/ArrowCircleRightRounded';
 import AnalyticsIcon from '@mui/icons-material/Analytics';
 import EmergencyShareIcon from '@mui/icons-material/EmergencyShare';
-import AddBusinessIcon from '@mui/icons-material/AddBusiness';
+import WebIcon from '@mui/icons-material/Web';
 // components
 import Title from './Title'
 import Paragraph from './Paragraph'
@@ -231,7 +231,7 @@ const Content = () => {
                     }}>
                     <CardContent>
                         <IconButton>
-                            <AddBusinessIcon
+                            <WebIcon
                                 fontSize="large"
                                 color='success'
                             />
@@ -244,7 +244,7 @@ const Content = () => {
                                 textTransform: 'capitalize',
                             }}
                         >
-                            Aumento de ventas
+                            Diseño web
                         </Typography>
                     </CardContent>
                 </Card>

@@ -53,7 +53,7 @@ const Navbar = () => {
             component="nav"
             position="sticky"
             sx={{
-                backgroundColor: '#EEEEEE',
+                backgroundColor: 'black',
             }}
             elevation={0}
         >
@@ -62,11 +62,11 @@ const Navbar = () => {
                     variant="h6"
                     component="h2"
                     sx={{
-                        color: 'black'
+                        color: 'white'
                     }}
 
                 >
-                    8Cinco
+                    8C
                 </Typography>
                 <Box sx={{ display: { xs: 'block', sm: 'none' } }}>
                     <DrawerItem />
@@ -78,7 +78,7 @@ const Navbar = () => {
                             <ListItem key={text}>
                                 <ListItemButton component={Link} to={item.to}
                                     sx={{
-                                        color: '#000',
+                                        color: 'white',
                                         "&:hover": {
                                             backgroundColor: 'transparent',
                                             color: '#1e2a5a',
